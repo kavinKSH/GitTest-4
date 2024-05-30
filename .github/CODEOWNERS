@@ -1,0 +1,4 @@
+# CODEOWNERS file for Swift Xcode project
+
+# Specify default owners for all files
+*       kavinKSH
