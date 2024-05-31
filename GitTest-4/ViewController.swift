@@ -17,5 +17,9 @@ class ViewController: UIViewController {
     func fixUIdesigns() {
         print("Fix UIdesigns ")
     }
+    
+    func addTimer() {
+        print("Fix UIdesigns ")
+    }
 }
 
