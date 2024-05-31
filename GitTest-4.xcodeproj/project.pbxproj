@@ -66,17 +66,41 @@
 			children = (
 				222240AD2C08B4800029ED26 /* AppDelegate.swift */,
 				222240AF2C08B4800029ED26 /* SceneDelegate.swift */,
-				222240B12C08B4800029ED26 /* ViewController.swift */,
-				22CBDD172C08E0BB00F40B99 /* DetailViewController.swift */,
-				22CBDD182C08E0BB00F40B99 /* DetailViewController.xib */,
-				229EF7B92C099FDB0076C154 /* UserListVC.swift */,
-				229EF7BA2C099FDB0076C154 /* UserListVC.xib */,
+				229EF7BF2C09B9730076C154 /* MainVC */,
+				229EF7BD2C09B9450076C154 /* DetailVC */,
+				229EF7BE2C09B9540076C154 /* UserListVC */,
 				222240B32C08B4800029ED26 /* Main.storyboard */,
 				222240B62C08B4810029ED26 /* Assets.xcassets */,
 				222240B82C08B4810029ED26 /* LaunchScreen.storyboard */,
 				222240BB2C08B4810029ED26 /* Info.plist */,
 			);
 			path = "GitTest-4";
+			sourceTree = "<group>";
+		};
+		229EF7BD2C09B9450076C154 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				22CBDD172C08E0BB00F40B99 /* DetailViewController.swift */,
+				22CBDD182C08E0BB00F40B99 /* DetailViewController.xib */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		229EF7BE2C09B9540076C154 /* UserListVC */ = {
+			isa = PBXGroup;
+			children = (
+				229EF7B92C099FDB0076C154 /* UserListVC.swift */,
+				229EF7BA2C099FDB0076C154 /* UserListVC.xib */,
+			);
+			path = UserListVC;
+			sourceTree = "<group>";
+		};
+		229EF7BF2C09B9730076C154 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				222240B12C08B4800029ED26 /* ViewController.swift */,
+			);
+			path = MainVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
