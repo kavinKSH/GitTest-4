@@ -9,7 +9,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    let useerName: String = ""
+    let useerName: String = "Prabhakaran"
 
     override func viewDidLoad() {
         super.viewDidLoad()
