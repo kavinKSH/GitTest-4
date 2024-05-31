@@ -13,7 +13,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Add some futures - 1")
     }
-
-
+    
+    func fixUIdesigns() {
+        print("Fix UIdesigns ")
+    }
+    
+    func addTimer() {
+        print("Fix UIdesigns ")
+    }
 }
 
