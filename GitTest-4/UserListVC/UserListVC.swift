@@ -9,7 +9,7 @@ import UIKit
 
 class UserListVC: UIViewController {
     var users: String? = ""
-    var isUsersAvailable: Bool? = false
+    var isUsersAvailable: Bool? = true
     override func viewDidLoad() {
         super.viewDidLoad()
         print("userDetails")
