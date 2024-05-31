@@ -13,6 +13,8 @@
 		222240B52C08B4800029ED26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222240B32C08B4800029ED26 /* Main.storyboard */; };
 		222240B72C08B4810029ED26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222240B62C08B4810029ED26 /* Assets.xcassets */; };
 		222240BA2C08B4810029ED26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222240B82C08B4810029ED26 /* LaunchScreen.storyboard */; };
+		22CBDD192C08E0BB00F40B99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBDD172C08E0BB00F40B99 /* DetailViewController.swift */; };
+		22CBDD1A2C08E0BB00F40B99 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CBDD182C08E0BB00F40B99 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		222240B62C08B4810029ED26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		222240B92C08B4810029ED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		222240BB2C08B4810029ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CBDD172C08E0BB00F40B99 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		22CBDD182C08E0BB00F40B99 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				222240AD2C08B4800029ED26 /* AppDelegate.swift */,
 				222240AF2C08B4800029ED26 /* SceneDelegate.swift */,
 				222240B12C08B4800029ED26 /* ViewController.swift */,
+				22CBDD172C08E0BB00F40B99 /* DetailViewController.swift */,
+				22CBDD182C08E0BB00F40B99 /* DetailViewController.xib */,
 				222240B32C08B4800029ED26 /* Main.storyboard */,
 				222240B62C08B4810029ED26 /* Assets.xcassets */,
 				222240B82C08B4810029ED26 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 				222240BA2C08B4810029ED26 /* LaunchScreen.storyboard in Resources */,
 				222240B72C08B4810029ED26 /* Assets.xcassets in Resources */,
 				222240B52C08B4800029ED26 /* Main.storyboard in Resources */,
+				22CBDD1A2C08E0BB00F40B99 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				222240B22C08B4800029ED26 /* ViewController.swift in Sources */,
 				222240AE2C08B4800029ED26 /* AppDelegate.swift in Sources */,
 				222240B02C08B4800029ED26 /* SceneDelegate.swift in Sources */,
+				22CBDD192C08E0BB00F40B99 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kavin.GitTest-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -332,7 +340,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kavin.GitTest-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

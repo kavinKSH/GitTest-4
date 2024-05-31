@@ -11,9 +11,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("Add some futures - 1")
     }
-
-
+    
+    func fixUIdesigns() {
+        print("Fix UIdesigns ")
+    }
+    
+    func addTimer() {
+        print("Fix UIdesigns ")
+    }
 }
 
