@@ -15,6 +15,8 @@
 		222240BA2C08B4810029ED26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222240B82C08B4810029ED26 /* LaunchScreen.storyboard */; };
 		229EF7BB2C099FDB0076C154 /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EF7B92C099FDB0076C154 /* UserListVC.swift */; };
 		229EF7BC2C099FDB0076C154 /* UserListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229EF7BA2C099FDB0076C154 /* UserListVC.xib */; };
+		229EF7C32C09BA700076C154 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EF7C12C09BA700076C154 /* ProfileViewController.swift */; };
+		229EF7C42C09BA700076C154 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229EF7C22C09BA700076C154 /* ProfileViewController.xib */; };
 		22CBDD192C08E0BB00F40B99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBDD172C08E0BB00F40B99 /* DetailViewController.swift */; };
 		22CBDD1A2C08E0BB00F40B99 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CBDD182C08E0BB00F40B99 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		222240BB2C08B4810029ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229EF7B92C099FDB0076C154 /* UserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
 		229EF7BA2C099FDB0076C154 /* UserListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListVC.xib; sourceTree = "<group>"; };
+		229EF7C12C09BA700076C154 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		229EF7C22C09BA700076C154 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		22CBDD172C08E0BB00F40B99 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		22CBDD182C08E0BB00F40B99 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +73,7 @@
 				229EF7BF2C09B9730076C154 /* MainVC */,
 				229EF7BD2C09B9450076C154 /* DetailVC */,
 				229EF7BE2C09B9540076C154 /* UserListVC */,
+				229EF7C02C09BA520076C154 /* ProfileVC */,
 				222240B32C08B4800029ED26 /* Main.storyboard */,
 				222240B62C08B4810029ED26 /* Assets.xcassets */,
 				222240B82C08B4810029ED26 /* LaunchScreen.storyboard */,
@@ -101,6 +106,15 @@
 				222240B12C08B4800029ED26 /* ViewController.swift */,
 			);
 			path = MainVC;
+			sourceTree = "<group>";
+		};
+		229EF7C02C09BA520076C154 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				229EF7C12C09BA700076C154 /* ProfileViewController.swift */,
+				229EF7C22C09BA700076C154 /* ProfileViewController.xib */,
+			);
+			path = ProfileVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229EF7C42C09BA700076C154 /* ProfileViewController.xib in Resources */,
 				229EF7BC2C099FDB0076C154 /* UserListVC.xib in Resources */,
 				222240BA2C08B4810029ED26 /* LaunchScreen.storyboard in Resources */,
 				222240B72C08B4810029ED26 /* Assets.xcassets in Resources */,
@@ -176,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229EF7C32C09BA700076C154 /* ProfileViewController.swift in Sources */,
 				222240B22C08B4800029ED26 /* ViewController.swift in Sources */,
 				222240AE2C08B4800029ED26 /* AppDelegate.swift in Sources */,
 				229EF7BB2C099FDB0076C154 /* UserListVC.swift in Sources */,
